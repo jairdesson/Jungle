@@ -1,24 +1,23 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
+#include <SFML\Graphics.hpp>
+#include <SFML\Window.hpp>
 
 namespace Jungle
 {
     class Principal
     {
-
         // Private
     private:
-        sf::RenderWindow window;
+    sf::RenderWindow Window;
 
         // Public
     public:
         // Constructor
-        Principal();
+        Principal(/* args */);
 
         // Destructor
         ~Principal();
 
-        // Execute
-        void Executar();
+        // Event Tick
+        void Tick();
     };
 }
